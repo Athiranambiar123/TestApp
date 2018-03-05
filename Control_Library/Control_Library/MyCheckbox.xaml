@@ -1,0 +1,15 @@
+﻿<UserControl x:Name="uc" x:Class="Control_Library.MyCheckbox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Control_Library"
+             mc:Ignorable="d" 
+             d:DesignHeight="25" Width="140">
+
+    <CheckBox Content="CheckBox" FontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" 
+              Height="{Binding ElementName=uc, Path=Height}" Margin="0,0,-37,0" Background="{Binding ElementName=uc, Path=Background}"
+              Foreground="{Binding ElementName=uc, Path=Foreground}" BorderBrush="{Binding ElementName=uc, Path=BorderBrush}" />
+
+
+</UserControl>

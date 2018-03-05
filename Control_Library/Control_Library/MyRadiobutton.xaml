@@ -1,0 +1,15 @@
+﻿<UserControl x:Name="uc" x:Class="Control_Library.MyRadiobutton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Control_Library"
+             mc:Ignorable="d" Height="25" Width="110">
+
+    <RadioButton Content="RadioButton" HorizontalAlignment="Right"  VerticalAlignment="Top" 
+     Height="{Binding ElementName=uc, Path=Height}" FontSize="15" Width="{Binding ElementName=uc, Path=Width}"
+     BorderBrush="{Binding ElementName=uc, Path=BorderBrush}" Background="{Binding ElementName=uc, Path=Background}"
+     Foreground="{Binding ElementName=uc, Path=Foreground}" FlowDirection="{Binding ElementName=uc, Path=FlowDirection}"/>
+
+
+</UserControl>
